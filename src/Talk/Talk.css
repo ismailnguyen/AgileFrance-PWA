@@ -1,0 +1,29 @@
+.card.talk-item {
+    margin: -10px 10px;
+    border: none;
+    border-radius: 8px;
+    color: #000;
+    box-shadow: 4px 4px 20px #DADADA;
+    position: static;
+    cursor: pointer;
+}
+
+.card.talk-item .card-title {
+    font-weight: bold;
+}
+
+.card.talk-item h6 {
+    color: #a4b9d2;
+}
+
+.card.talk-item .card-text {
+    color: #727272;
+    font-size: 0.875rem;
+}
+
+.badge.badge-primary {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    padding: 5px;
+    background-color: #326ab0;
+}
