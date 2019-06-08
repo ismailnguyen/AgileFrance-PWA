@@ -1,15 +1,48 @@
 {
+  "dir": "ltr",
+  "lang": "fr",
   "short_name": "Agile France",
-  "name": "Agile France 2019",
+  "name": "Agile France",
+  "description": "AgileFrance, la grande conférence Agile francophone sans sponsor, de la communauté pour la communauté (Paris)",
+  "scope": "/",
   "start_url": ".",
-  "icons": [
-    {
+  "theme_color": "#efedf8",
+  "background_color": "#efedf8",
+  "display": "standalone",
+  "orientation": "any",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "icons": [{
       "src": "favicon.ico",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
-    }
-  ],
-  "display": "standalone",
-  "theme_color": "#efedf8",
-  "background_color": "#efedf8"
+    }, {
+      "src": "./assets/img/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    }, {
+      "src": "./assets/img/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    }, {
+      "src": "./assets/img/android-chrome-72x72.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    }, {
+      "src": "./assets/img/apple-touch-icon-120x120.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }, {
+      "src": "./assets/img/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }, {
+      "src": "./assets/img/favicon-194x194.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    }, {
+      "src": "./assets/img/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }]
 }
