@@ -6,7 +6,6 @@ import TalkDetailModal from './Talk/TalkDetailModal';
 import DayScheduleNavigation from './DayScheduleNavigation/DayScheduleNavigation'
 import scheduleDatas from './datas/schedule.json';
 
-
 class App extends React.Component {
   constructor()  {
     super();

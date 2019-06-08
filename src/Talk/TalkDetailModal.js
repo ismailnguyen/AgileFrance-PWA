@@ -15,7 +15,7 @@ class TalkDetailModal extends React.Component {
                     </div>
                     <div className="modal-body" id="modal-talk-description"></div>
                     <div className="modal-footer">
-                        <span class="blockquote-footer" id="modal-talk-level"></span>
+                        <span className="blockquote-footer" id="modal-talk-level"></span>
                     </div>
                     <div className="modal-footer">
                         <button type="button" className="btn btn-primary">Laisser un avis</button>
