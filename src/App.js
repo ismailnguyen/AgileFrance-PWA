@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.png';
 import './App.css';
 
 import Talk from './Talk/Talk';
@@ -26,7 +25,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="header">
-          <img src={logo} className="logo" alt="logo" />
+          <img src="/assets/img/logo.png" className="logo animated bounceInUp" alt="Agile France" />
           <h4>La Grande Conférence Agile Francophone</h4>
           <small>Chalet de la Porte Jaune - Bois de Vincennes, Paris</small>
         </header>
@@ -87,6 +86,8 @@ class App extends React.Component {
 
         <TalkDetailModal />
 
+        <footer>
+        </footer>
       </div>
     )
   }
