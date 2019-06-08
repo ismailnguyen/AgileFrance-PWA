@@ -2,9 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="theme-color" content="#efedf8" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -35,6 +36,21 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
     <script src="https://embed.small.chat/TF8PSU77VGKCPY423W.js" async></script>
+
+    <script>
+    $(document).ready(function () {
+      $('#talkDetailModal').on('show.bs.modal', function (event) {
+        var element = $(event.relatedTarget) // Element that triggered the modal
+        var modal = $(this)
+        modal.find('#modal-talk-title').text(element.data('title'))
+        modal.find('#modal-talk-description').html(element.data('description'))
+        modal.find('#modal-talk-level').html(element.data('level'))
+      })
+    })
+    </script>
   </body>
 </html>
