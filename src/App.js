@@ -13,7 +13,7 @@ class App extends React.Component {
     this.state = {
       schedule: scheduleDatas,
       lastClickedId: 0,
-      bookmarks: JSON.parse(localStorage.getItem('bookmarks'))
+      bookmarks: JSON.parse(localStorage.getItem('bookmarks')) || []
     };
 
     this.onTalkClicked = this.onTalkClicked.bind(this);
@@ -26,10 +26,8 @@ class App extends React.Component {
   }
 
   onBookmarkUpdated() {
-      console.log('onBookmarkUpdated');
-      console.log(JSON.parse(localStorage.getItem('bookmarks')));
       this.setState({
-        bookmarks: JSON.parse(localStorage.getItem('bookmarks'))
+        bookmarks: JSON.parse(localStorage.getItem('bookmarks')) || []
       });
   }
 
@@ -80,7 +78,7 @@ class App extends React.Component {
           
         </div>
 
-        <TalkDetailModal talkData={ this.state.lastClickedTalkData } bookmarkUpdated={ status => this.onBookmarkUpdated() } />
+        <TalkDetailModal talkData={ this.state.lastClickedTalkData } bookmarks={ this.state.bookmarks } bookmarkUpdated={ status => this.onBookmarkUpdated() } />
 
         <footer className="lazyload" data-bg="/assets/img/audience.png">
         </footer>

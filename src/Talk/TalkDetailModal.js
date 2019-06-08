@@ -18,9 +18,7 @@ class TalkDetailModal extends React.Component {
     }
 
     isBookmarked() {
-        const localStorageBookmarkKey = 'bookmarks';
-
-        let bookmarks = JSON.parse(localStorage.getItem(localStorageBookmarkKey)) || [];
+        let bookmarks = this.props.bookmarks;
 
         let talkData = this.props.talkData;
         if (talkData) {
@@ -36,9 +34,7 @@ class TalkDetailModal extends React.Component {
     }
 
     addToBookmark() {
-        const localStorageBookmarkKey = 'bookmarks';
-
-        let bookmarks = JSON.parse(localStorage.getItem(localStorageBookmarkKey)) || [];
+        let bookmarks = this.props.bookmarks;
         
         let talkData = this.props.talkData;
         if (talkData !== '') {
@@ -54,7 +50,7 @@ class TalkDetailModal extends React.Component {
             }
             
             this.setState({ isBookmarked: !this.state.isBookmarked });
-            localStorage.setItem(localStorageBookmarkKey, JSON.stringify(bookmarks));
+            localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
 
             this.props.bookmarkUpdated(true);
         }
@@ -80,9 +76,9 @@ class TalkDetailModal extends React.Component {
                             <button type="button" className="btn btn-primary">Laisser un avis</button> */}
                         
                         { this.isBookmarked() ? 
-                            <button type="button" onClick={ () => this.addToBookmark() } className="btn btn-outline-danger float-right">Supprimer des favoris</button>
+                            <button type="button" onClick={ () => this.addToBookmark() } className="btn btn-outline-danger float-right" data-dismiss="modal">Supprimer des favoris</button>
                             :
-                            <button type="button" onClick={ () => this.addToBookmark() } className="btn btn-danger float-right">Ajouter aux favoris</button>
+                            <button type="button" onClick={ () => this.addToBookmark() } className="btn btn-danger float-right" data-dismiss="modal">Ajouter aux favoris</button>
                         }
                     </div>
                 </div>
