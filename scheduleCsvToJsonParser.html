@@ -1,33 +1,70 @@
 <input type="file" id="file-input" >
-<div id="file-content" style="background:black; color:white"></div>
+<pre id="file-content" style="background:black; color:white"></pre>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.0.0/papaparse.min.js" type="text/javascript"></script>
 
 <script>
+	function convertData(rawDatas) {
+		let resultDatas = [];
+
+		for (var i=0; i<rawDatas.length; i++) {
+			var day = '13/06/2019';
+
+			if (rawDatas[i].jour.includes('Vendredi'))
+				day = '14/06/2019';
+			
+			var data = {
+				id: i+1,
+				date: `${day} ${rawDatas[i].Time }`,
+				title: rawDatas[i].Titre,
+				description: rawDatas[i].Pitch,
+				room: rawDatas[i].Salle,
+				level: rawDatas[i].Niveau,
+				objectif: rawDatas[i].Objectif,
+				speakers: [
+					`${rawDatas[i].Prénom1} ${rawDatas[i].Nom1}`,
+				]
+			};
+
+			if (rawDatas[i].Prénom2 !== '' && rawDatas[i].Nom2 !== '') {
+				data.speakers.push(`${rawDatas[i].Prénom2} ${rawDatas[i].Nom2}`)
+			}
+
+			if (rawDatas[i].Prénom3 !== '' && rawDatas[i].Nom3 !== '') {
+				data.speakers.push(`${rawDatas[i].Prénom3} ${rawDatas[i].Nom3}`)
+			}
+			
+			resultDatas.push(data);
+		}
+
+		return resultDatas;
+	}
+
 	function readSingleFile(e) {
 	  var file = e.target.files[0];
-	  if (!file) {
-		return;
-	  }
+	  if (!file)
+			return;
 	  
 	  Papa.parse(file, {
 				header: true,
 				delimiter: ';',
-				//download: true,
 				complete: function(results) {
 					var parsedDatas = results.data;
+
+					parsedDatas = convertData(parsedDatas);
 					
 					console.log(parsedDatas);
 					console.log(JSON.stringify(parsedDatas));
 					
-					displayContents(JSON.stringify(parsedDatas));
+					displayContents(JSON.stringify(parsedDatas, null, 4));
 				}
 			});
 	}
 	 
 	function displayContents(contents) {
 	  var element = document.getElementById('file-content');
-	  element.innerHTML = contents;
+		element.innerHTML = contents;
+		//document.write(contents)
 	}
 	 
 	document.getElementById('file-input').addEventListener('change', readSingleFile, false);
