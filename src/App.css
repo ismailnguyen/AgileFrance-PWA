@@ -66,10 +66,22 @@ h1 {
 }
 
 footer {
-  background: url(/assets/img/audience.png) no-repeat fixed;
+  background: no-repeat fixed;
   background-position: bottom center;
-  height: 50vh;
+  height: 30vh;
   background-size: contain;
+}
+
+@media (min-width: 768px) { 
+	footer {
+		height: 50vh;
+	}
+}
+
+@media (min-width: 1200px) { 
+	footer {
+		height: 100vh;
+	}
 }
 
 .animated {

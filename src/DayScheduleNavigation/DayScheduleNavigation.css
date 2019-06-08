@@ -12,12 +12,10 @@
     padding: 0.5rem 0.75rem;
     cursor: pointer;
     color: #1d1d1d;
-
   }
   
   .tab-list-active {
-      border-bottom: 2px solid #1d1d1d;
-      
+    border-bottom: 2px solid #1d1d1d;
     background-color: #1d1d1d;
     color: #FFF;
     border-radius: 8px;

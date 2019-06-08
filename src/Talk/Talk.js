@@ -2,9 +2,18 @@ import React from 'react';
 import './Talk.css'
 
 class Talk extends React.Component {
-    // constructor(props) {
-    //     super(props);
-    // }
+    onClicked() {
+        this.props.clickedCallback(JSON.stringify(this.props.data));
+    }
+
+    isBookmarked() {
+        let bookmarks = this.props.bookmarks;
+
+        let currentTalkId = this.props.data.id;
+        let bookmarkIndex = bookmarks.indexOf(currentTalkId);
+
+        return bookmarkIndex > -1;
+    }
 
     render() {
         return (
@@ -16,9 +25,11 @@ class Talk extends React.Component {
                     </span>
 
                     <div 
-                        className="card talk-item" 
+                        className={ "card talk-item" + (this.isBookmarked() ? ' red-border' : '') } 
                         data-toggle="modal" 
                         data-target="#talkDetailModal" 
+                        onClick={ () => this.onClicked() }
+                        data-id={this.props.data.id} 
                         data-title={this.props.data.title} 
                         data-description={this.props.data.description} 
                         data-level={this.props.data.level}>

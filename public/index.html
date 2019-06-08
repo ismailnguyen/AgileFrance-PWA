@@ -57,17 +57,16 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <script src="https://embed.small.chat/TF8PSU77VGKCPY423W.js" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.0/lazysizes.min.js" async></script>
 
     <script>
-    $(document).ready(function () {
-      $('#talkDetailModal').on('show.bs.modal', function (event) {
-        var element = $(event.relatedTarget) // Element that triggered the modal
-        var modal = $(this)
-        modal.find('#modal-talk-title').text(element.data('title'))
-        modal.find('#modal-talk-description').html(element.data('description'))
-        modal.find('#modal-talk-level').html(element.data('level'))
-      })
-    })
+      // Lazyload for background images
+      document.addEventListener('lazybeforeunveil', function(e){
+          var bg = e.target.getAttribute('data-bg');
+          if(bg){
+              e.target.style.backgroundImage = 'url(' + bg + ')';
+          }
+      });
     </script>
   </body>
 </html>

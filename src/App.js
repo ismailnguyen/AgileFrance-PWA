@@ -7,15 +7,33 @@ import DayScheduleNavigation from './DayScheduleNavigation/DayScheduleNavigation
 import scheduleDatas from './datas/schedule.json';
 
 class App extends React.Component {
-  constructor()  {
-    super();
+  constructor(props)  {
+    super(props);
 
     this.state = {
-      schedule: scheduleDatas
+      schedule: scheduleDatas,
+      lastClickedId: 0,
+      bookmarks: JSON.parse(localStorage.getItem('bookmarks'))
     };
+
+    this.onTalkClicked = this.onTalkClicked.bind(this);
   }
 
-  eventsForHalfdayTime(dayName, halfdayName) {
+  onTalkClicked (talkData) {
+    this.setState({
+      lastClickedTalkData: talkData
+    });
+  }
+
+  onBookmarkUpdated() {
+      console.log('onBookmarkUpdated');
+      console.log(JSON.parse(localStorage.getItem('bookmarks')));
+      this.setState({
+        bookmarks: JSON.parse(localStorage.getItem('bookmarks'))
+      });
+  }
+
+  eventsForHalfdayTime (dayName, halfdayName) {
     return this.state.schedule.days.find(d => d.dayName === dayName).events
         .filter(e => e.halfdayName.toLowerCase().includes(halfdayName.toLowerCase()));
   }
@@ -24,7 +42,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="header">
-          <img src="/assets/img/logo.png" className="logo animated bounceInUp" alt="Agile France" />
+          <img src="/assets/img/favicon-96x96.png" className="logo animated bounceInUp" alt="Agile France" />
           <h4>La Grande Conférence Agile Francophone</h4>
           <small>Chalet de la Porte Jaune - Bois de Vincennes, Paris</small>
         </header>
@@ -32,60 +50,39 @@ class App extends React.Component {
         <div className="container main-container">
 
           <DayScheduleNavigation>
-            <div label="Jeudi">
+            { this.state.schedule.days.map((day, index) =>
+              <div label={ day.dayName } key={ index }>
                 <div className="row title-row">
-                <div className="col-xs-12">
-                  <h3>Matin</h3>
+                  <div className="col-xs-12">
+                    <h3>Matin</h3>
+                  </div>
                 </div>
-              </div>
-              <div className="row">
-              { this.eventsForHalfdayTime('Jeudi', 'Matin').map((item, index) =>
-                  <Talk data={ item } key={index} />
-                ) }
-              </div>
-              
-              <div className="row title-row">
-                <div className="col-xs-12">
-                  <h3>Apr&egrave;s midi</h3>
+                <div className="row">
+                { this.eventsForHalfdayTime(day.dayName, 'Matin').map((item, index) =>
+                    <Talk data={ item } key={index} bookmarks={ this.state.bookmarks } clickedCallback={ talkData => this.onTalkClicked(talkData) } />
+                  ) }
                 </div>
-              </div>
-              <div className="row">
-              { this.eventsForHalfdayTime('Jeudi', 'Midi').map((item, index) =>
-                  <Talk data={ item } key={index} />
-                ) }
-              </div>
-            </div>
-            <div label="Vendredi">
+                
                 <div className="row title-row">
-                <div className="col-xs-12">
-                  <h3>Matin</h3>
+                  <div className="col-xs-12">
+                    <h3>Apr&egrave;s midi</h3>
+                  </div>
+                </div>
+                <div className="row">
+                { this.eventsForHalfdayTime(day.dayName, 'Midi').map((item, index) =>
+                    <Talk data={ item } key={index} bookmarks={ this.state.bookmarks } clickedCallback={ talkData => this.onTalkClicked(talkData) } />
+                  ) }
                 </div>
               </div>
-              <div className="row">
-              { this.eventsForHalfdayTime('Vendredi', 'Matin').map((item, index) =>
-                  <Talk data={ item } key={index} />
-                ) }
-              </div>
-              
-              <div className="row title-row">
-              <div className="col-xs-12">
-                  <h3>Apr&egrave;s midi</h3>
-                </div>
-              </div>
-              <div className="row">
-              { this.eventsForHalfdayTime('Vendredi', 'Midi').map((item, index) =>
-                  <Talk data={ item } key={index} />
-                ) }
-              </div>
-            </div>
+            )}
           </DayScheduleNavigation>
 
           
         </div>
 
-        <TalkDetailModal />
+        <TalkDetailModal talkData={ this.state.lastClickedTalkData } bookmarkUpdated={ status => this.onBookmarkUpdated() } />
 
-        <footer>
+        <footer className="lazyload" data-bg="/assets/img/audience.png">
         </footer>
       </div>
     )
