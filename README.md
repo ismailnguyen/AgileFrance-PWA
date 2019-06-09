@@ -10,15 +10,15 @@ Live : [https://agile-france.web.app](https://agile-france.web.app)
 
 ### Home page
 
-![](https://github.com/ismailnguyen/AgileFrance-PWA/raw/master/screenshots/homepage.PNG)
+![](https://github.com/ismailnguyen/AgileFrance-PWA/raw/master/screenshots/homepage.png)
 
 ### Bookmarked event on home page
 
-![](https://github.com/ismailnguyen/AgileFrance-PWA/raw/master/screenshots/bookmarked-event.png.PNG)
+![](https://github.com/ismailnguyen/AgileFrance-PWA/raw/master/screenshots/bookmarked-event.png)
 
 ### Event detail popin
 
-![](https://github.com/ismailnguyen/AgileFrance-PWA/raw/master/screenshots/description-popin.png.PNG)
+![](https://github.com/ismailnguyen/AgileFrance-PWA/raw/master/screenshots/description-popin.png)
 
 
 
