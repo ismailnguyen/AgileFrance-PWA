@@ -353,7 +353,7 @@
                     "startTime": "09:30",
                     "endTime": "11:50",
                     "title": "Priotour : jouer à prioriser collectivement",
-                    "description": "Pitch :<br>Cela vous est-il arrivé d’avoir TROP de choses à faire ? A l’ère de l’infobésité, qui n’est pas surchargé(e) ? Et par extension : Quelle équipe n’est pas surchargée ? La réponse classique ? « Tu n’as qu’à prioriser ! ».<br>Une fois sur le terrain, ce n’est pas si facile !<br>Pour se tenir prêts, il nous faudrait alors un petit florilège de techniques collectives, ou individuelles de priorisation, répondant à une contrainte (« nous sommes beaucoup à décider », « il y a plein d’éléments », « tout n’est pas précis », ...)<br>Publics préférentiels : Toute personne en position de prendre une décision ou d'y participer.<br>Connaissances préalables : Aucune<br>Que retireront les participant(e)s : Un ensemble de techniques de priorisation collective, qu'ils auront déjà pratiqué au moins une fois pendant l'atelier. Les ressources sont libres d'utilisation et ouvertes (format #OpenSeriousGame), chaque participant(e) pourra donc aussi animer l'atelier une fois de retour à son environnement.",
+                    "description": "Cela vous est-il arrivé d’avoir TROP de choses à faire ? A l’ère de l’infobésité, qui n’est pas surchargé(e) ? Et par extension : Quelle équipe n’est pas surchargée ? La réponse classique ? « Tu n’as qu’à prioriser ! ».<br>Une fois sur le terrain, ce n’est pas si facile !<br>Pour se tenir prêts, il nous faudrait alors un petit florilège de techniques collectives, ou individuelles de priorisation, répondant à une contrainte (« nous sommes beaucoup à décider », « il y a plein d’éléments », « tout n’est pas précis », ...)<br>Publics préférentiels : Toute personne en position de prendre une décision ou d'y participer.<br>Connaissances préalables : Aucune<br>Que retireront les participant(e)s : Un ensemble de techniques de priorisation collective, qu'ils auront déjà pratiqué au moins une fois pendant l'atelier. Les ressources sont libres d'utilisation et ouvertes (format #OpenSeriousGame), chaque participant(e) pourra donc aussi animer l'atelier une fois de retour à son environnement.",
                     "room": "Chalet 4",
                     "level": "Shu (apprendre les fondamentaux)",
                     "objectif": "Faire vivre une pratique",
@@ -477,7 +477,7 @@
                     "halfdayName": "Matin",
                     "startTime": "10:50",
                     "endTime": "11:50",
-                    "title": "Presta externes ou insiders : comment rendre addict à la potion Agile les grosses structures ?",
+                    "title": "Presta externes ou insiders : comment rendre addict à la potion Agile les grosses structures ?",
                     "description": "La présentation s’adresse à deux publics différents et complémentaires. Il s’agit des prestataires Agilistes (SSII), débutants ou non et des acteurs, souvent moins expérimentés que les premiers, des grosses structures (entreprises ou administrations) qui mettent en œuvre ou souhaitent le faire, de l’Agilité.<br>L’objectif est de présenter à chacun, les clés, bonnes pratiques et pièges à éviter pour pratiquer avec succès, l’agilité. Il ne s’agit pas d’un retour d’expérience mais d’un exposé sur les facteurs clés, vus, et c’est l’originalité de la présentation, par un acteur d’une grosse structure, l’Insee. Le client parle aux prestas en expliquant quelques clés pour faire du gagnant-gagnant.<br>L’exposé est jalonné d’illustrations et d’anecdotes. Des éléments de base de l’agilité et de sociologie (le chemin vers l’interdépendance, la socio-dynamique des acteurs, le cargo cult agile, etc.) y sont aussi rappelés de manière ludique. L’exposé est support à échanges avec et entre participants.",
                     "room": "Chalet 1",
                     "level": "Ha (casser avec la tradition)",
@@ -817,7 +817,7 @@
                         "Vincent FASSEU François BOISSEL",
                         "et Mickaël SEVERE"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-82"
+                    "feedbackUrl": "https://roti.express/r/AF2019-84"
                 },
                 {
                     "id": 41,
@@ -826,7 +826,7 @@
                     "halfdayName": "",
                     "startTime": "Déjeuner",
                     "title": "Déboires agiles au comptoir",
-                    "description": "PITCH : 2 coachs agiles se retrouvent dans un bar, et se commence à épiloguer sur leurs déboires de missions...<br>CONTENU : des expériences parlant d'agilité à l’échelle, de management, de DevOps, ... le tout mixant REX et Tips.<br>FORMAT : Nous souhaitons tester un format différent d'une conférence classique. De part une mise en scène théâtrale, et l'enchaînement de scénettes nous souhaitons faire vivre les retours d'expérience et les enseignements à en tirer",
+                    "description": "2 coachs agiles se retrouvent dans un bar, et se commence à épiloguer sur leurs déboires de missions...<br>CONTENU : des expériences parlant d'agilité à l’échelle, de management, de DevOps, ... le tout mixant REX et Tips.<br>FORMAT : Nous souhaitons tester un format différent d'une conférence classique. De part une mise en scène théâtrale, et l'enchaînement de scénettes nous souhaitons faire vivre les retours d'expérience et les enseignements à en tirer",
                     "room": "Fermette",
                     "level": "Ha (casser avec la tradition)",
                     "objectif": "Partager une expérience",

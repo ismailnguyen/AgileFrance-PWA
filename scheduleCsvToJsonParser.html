@@ -31,6 +31,9 @@
 		let resultDatas = [];
 
 		for (var i=0; i<rawDatas.length; i++) {
+
+			if (rawDatas[i].ID === '') continue;
+
 			var day = '13/06/2019';
 
 			if (rawDatas[i].jour.includes('Vendredi'))
