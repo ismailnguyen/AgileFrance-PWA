@@ -18,7 +18,8 @@
                     "objectif": "Faire vivre une pratique",
                     "speakers": [
                         "Grégory ALEXANDRE"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-1"
                 },
                 {
                     "id": 14,
@@ -35,7 +36,8 @@
                     "speakers": [
                         "Frantz DEGRIGNY",
                         "Gaelle ABAUTRET"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-41"
                 },
                 {
                     "id": 31,
@@ -52,7 +54,8 @@
                     "speakers": [
                         "Nicolas KALMANOVITZ",
                         "Alban DALLE"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-93"
                 },
                 {
                     "id": 35,
@@ -68,7 +71,8 @@
                     "objectif": "Partager une expérience",
                     "speakers": [
                         "Julien JAKUBOWSKI"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-105"
                 },
                 {
                     "id": 44,
@@ -85,7 +89,8 @@
                     "speakers": [
                         "Emmanuel GUE",
                         "Alexandre HUETE"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-131"
                 },
                 {
                     "id": 46,
@@ -103,7 +108,8 @@
                         "Marta THONGSAVARN",
                         "Nicolas CHAIGNEAU",
                         "Xavier FENOUIL"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-144"
                 },
                 {
                     "id": 21,
@@ -120,7 +126,8 @@
                     "speakers": [
                         "Emmanuelle LEFORT",
                         "Marina SOSNIAK"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-58"
                 },
                 {
                     "id": 9,
@@ -136,7 +143,8 @@
                     "objectif": "Faire vivre une pratique",
                     "speakers": [
                         "Aurélien WILLE"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-18"
                 },
                 {
                     "id": 13,
@@ -152,7 +160,8 @@
                     "objectif": "Lancer un débat",
                     "speakers": [
                         "Vincent JOBARD"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-33"
                 },
                 {
                     "id": 18,
@@ -169,7 +178,8 @@
                     "speakers": [
                         "Moïra DEGROOTE",
                         "Laurent LAME"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-53"
                 },
                 {
                     "id": 25,
@@ -186,7 +196,8 @@
                     "speakers": [
                         "Nils LESIEUR",
                         "Stéphane BACHELET"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-72"
                 },
                 {
                     "id": 27,
@@ -202,7 +213,8 @@
                     "objectif": "Faire vivre une pratique",
                     "speakers": [
                         "Manuella CHAINOT-BATAILLE"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-76"
                 },
                 {
                     "id": 33,
@@ -217,8 +229,10 @@
                     "level": "Ha (casser avec la tradition)",
                     "objectif": "Faire vivre une pratique",
                     "speakers": [
+                        "Ismail HAMMOUNOU",
                         "Ismail HAMMOUNOU"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-97"
                 },
                 {
                     "id": 16,
@@ -235,7 +249,8 @@
                     "speakers": [
                         "Charline RENART",
                         "Coline GUICHARD"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-43"
                 },
                 {
                     "id": 11,
@@ -251,7 +266,8 @@
                     "objectif": "Partager une expérience",
                     "speakers": [
                         "Gautier LESIEUR"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-25"
                 },
                 {
                     "id": 20,
@@ -267,7 +283,8 @@
                     "objectif": "Partager une expérience",
                     "speakers": [
                         "Bertrand MINARY"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-57"
                 },
                 {
                     "id": 36,
@@ -284,7 +301,8 @@
                     "speakers": [
                         "Philippe SOURGET",
                         "Victor PICHON"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-106"
                 },
                 {
                     "id": 39,
@@ -300,7 +318,8 @@
                     "objectif": "Partager une expérience",
                     "speakers": [
                         "Elodie DESCHARMES"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-112"
                 },
                 {
                     "id": 45,
@@ -317,7 +336,8 @@
                     "speakers": [
                         "Davy AZAM",
                         "Didier ORTEGA"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-141"
                 }
             ]
         },
@@ -340,7 +360,8 @@
                     "speakers": [
                         "Yann GOWSY",
                         "Alexandre QUACH"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-15"
                 },
                 {
                     "id": 10,
@@ -356,7 +377,8 @@
                     "objectif": "Faire rire / provoquer / faire réfléchir",
                     "speakers": [
                         "Mickaël ANDRE"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-22"
                 },
                 {
                     "id": 26,
@@ -372,7 +394,8 @@
                     "objectif": "Un peu de tout à la fois, désolé (des bases, mes expériences, lancer des débats...)",
                     "speakers": [
                         "Frédéric FAURE"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-74"
                 },
                 {
                     "id": 32,
@@ -389,7 +412,8 @@
                     "speakers": [
                         "Sarah COLMON",
                         "Alexandra NEMERY"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-95"
                 },
                 {
                     "id": 40,
@@ -407,7 +431,8 @@
                         "Pascale POTHIN",
                         "Marco MARCAL",
                         "Catherine BOUDLAL"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-117"
                 },
                 {
                     "id": 43,
@@ -424,7 +449,8 @@
                     "speakers": [
                         "Bastien JACOUD",
                         "Edouard PRIMAULT"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-130"
                 },
                 {
                     "id": 22,
@@ -440,7 +466,8 @@
                     "objectif": "C’est un mélange de bases, de rex et de changement du point de vue habituel",
                     "speakers": [
                         "Jean-Michel ARNOUX"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-60"
                 },
                 {
                     "id": 34,
@@ -456,7 +483,8 @@
                     "objectif": "Partager une expérience",
                     "speakers": [
                         "Philippe BOURGAU"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-98"
                 },
                 {
                     "id": 42,
@@ -472,7 +500,8 @@
                     "objectif": "Faire vivre une pratique",
                     "speakers": [
                         "Nathaniel RICHAND"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-129"
                 },
                 {
                     "id": 47,
@@ -488,7 +517,8 @@
                     "objectif": "",
                     "speakers": [
                         "François ZANINOTTO"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-007"
                 },
                 {
                     "id": 2,
@@ -505,7 +535,8 @@
                     "speakers": [
                         "Laetitia THERNIER",
                         "Régis SCHNEIDER"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-4"
                 },
                 {
                     "id": 8,
@@ -521,7 +552,8 @@
                     "objectif": "Expliquer les bases au format conférence / faire vivre une pratique au format atelier",
                     "speakers": [
                         "Anne GABRILLAGUES"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-17"
                 },
                 {
                     "id": 12,
@@ -538,7 +570,8 @@
                     "speakers": [
                         "Fabrice BLOCH",
                         "Armelle KOEHL"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-29"
                 },
                 {
                     "id": 15,
@@ -555,7 +588,8 @@
                     "speakers": [
                         "Arnaud GERVAIS",
                         "Grégory ALEXANDRE"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-42"
                 },
                 {
                     "id": 17,
@@ -572,7 +606,8 @@
                     "speakers": [
                         "Dominique LEQUEPEYS",
                         "Philippe BRON"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-45"
                 },
                 {
                     "id": 23,
@@ -588,7 +623,8 @@
                     "objectif": "Faire vivre une pratique",
                     "speakers": [
                         "Yoan THIRION"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-63"
                 },
                 {
                     "id": 30,
@@ -604,7 +640,8 @@
                     "objectif": "Partager une expérience",
                     "speakers": [
                         "Dov TSAL"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-83"
                 },
                 {
                     "id": 19,
@@ -620,7 +657,8 @@
                     "objectif": "Partager une expérience",
                     "speakers": [
                         "Tiphanie VINET"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-55"
                 },
                 {
                     "id": 24,
@@ -636,7 +674,8 @@
                     "objectif": "Partager une expérience",
                     "speakers": [
                         "Eric PATRIZIO"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-67"
                 },
                 {
                     "id": 3,
@@ -652,7 +691,8 @@
                     "objectif": "Faire vivre une pratique",
                     "speakers": [
                         "Anne-Sophie GIRAULT LE MAULT"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-5"
                 },
                 {
                     "id": 4,
@@ -668,7 +708,8 @@
                     "objectif": "Expliquer des bases ET Partager une expérience",
                     "speakers": [
                         "Aurelie AMBAL"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-6"
                 },
                 {
                     "id": 6,
@@ -684,7 +725,8 @@
                     "objectif": "Partager une expérience",
                     "speakers": [
                         "Arnaud PICHERY"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-14"
                 },
                 {
                     "id": 28,
@@ -702,7 +744,8 @@
                         "Emilie SULMONT",
                         "Vincent FASSEU",
                         "Mickaël SEVERE"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-82"
                 },
                 {
                     "id": 37,
@@ -718,7 +761,8 @@
                     "objectif": "Partager une expérience",
                     "speakers": [
                         "Olivier LE LAN"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-107"
                 },
                 {
                     "id": 38,
@@ -735,7 +779,8 @@
                     "speakers": [
                         "thomas BONSET",
                         "Émilien BOULBEN"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-108"
                 },
                 {
                     "id": 29,
@@ -753,7 +798,8 @@
                         "Emilie SULMONT",
                         "Francois BOISSEF",
                         "Florence TOUTAIN"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-82"
                 },
                 {
                     "id": 41,
@@ -769,7 +815,8 @@
                     "speakers": [
                         "Grégoire QUENTIN",
                         "Dan MAGIER"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-128"
                 },
                 {
                     "id": 5,
@@ -785,7 +832,8 @@
                     "speakers": [
                         "François-Xavier LEONETTI",
                         "Amélie PLEAU"
-                    ]
+                    ],
+                    "feedbackUrl": "https://roti.express/r/AF2019-11"
                 }
             ]
         }

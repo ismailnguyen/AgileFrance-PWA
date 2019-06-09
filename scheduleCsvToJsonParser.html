@@ -52,7 +52,8 @@
 				objectif: rawDatas[i].Objectif,
 				speakers: [
 					`${rawDatas[i].Prénom1} ${rawDatas[i].Nom1}`,
-				]
+				],
+				feedbackUrl: `https://roti.express/r/AF2019-${ rawDatas[i].ID }`
 			};
 
 			if (rawDatas[i].Prénom2 !== '' && rawDatas[i].Nom2 !== '') {
