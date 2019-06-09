@@ -12,7 +12,7 @@ class App extends React.Component {
 
     this.state = {
       schedule: scheduleDatas,
-      lastClickedId: 0,
+      lastClickedTalkData: null,
       bookmarks: JSON.parse(localStorage.getItem('bookmarks')) || []
     };
 
@@ -80,8 +80,7 @@ class App extends React.Component {
 
         <TalkDetailModal talkData={ this.state.lastClickedTalkData } bookmarks={ this.state.bookmarks } bookmarkUpdated={ status => this.onBookmarkUpdated() } />
 
-        <footer className="lazyload" data-bg="/assets/img/audience.png">
-        </footer>
+        <footer className="lazyload" data-bg="/assets/img/audience.png"></footer>
       </div>
     )
   }
