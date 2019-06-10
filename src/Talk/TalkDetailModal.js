@@ -116,7 +116,7 @@ class TalkDetailModal extends React.Component {
 
                         { this.state.showFeedbackForm ?
                             <div className="modal-body">
-                                <iframe title="Roti" src={ this.state.talk.feedbackUrl } scrolling="no" frameBorder="0" style={{ border: "none", width: "100%", height: "500px" }}></iframe>
+                                <iframe title="Roti" src={ this.state.talk.feedbackUrl } frameBorder="0" style={{ border: "none", width: "100%", height: "500px" }}></iframe>
                             </div>
                             :
                             <div className="modal-body" dangerouslySetInnerHTML={{ __html: this.state.talk.description }}></div>
