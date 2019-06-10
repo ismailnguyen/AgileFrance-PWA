@@ -107,6 +107,13 @@ class TalkDetailModal extends React.Component {
                                 <span aria-hidden="true">&times;</span>
                             </button>
                         </div>
+
+                        <div className="modal-footer">
+                            { this.state.talk.speakers.map((speakerName, index) =>
+                                <span className="badge badge-pill badge-light" key={index}>{speakerName}</span>
+                            )}
+                        </div>
+
                         { this.state.showFeedbackForm ?
                             <div className="modal-body">
                                 <iframe title="Roti" src={ this.state.talk.feedbackUrl } scrolling="no" frameBorder="0" style={{ border: "none", width: "100%", height: "500px" }}></iframe>
@@ -116,6 +123,10 @@ class TalkDetailModal extends React.Component {
                         }
                         
                         { talkLevel }
+
+                        <div className="modal-footer">
+                            <span>{ this.state.talk.dayName } { this.state.talk.halfdayName } : { this.state.talk.startTime } - { this.state.talk.endTime } ({ this.state.talk.room })</span>
+                        </div>
                         
                         <div className="modal-footer">
                             { feedbackButton }
