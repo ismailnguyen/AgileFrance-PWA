@@ -1,7 +1,7 @@
 import React from 'react';
-import './TalkDetailModal.css';
+import './TalkDetail.css';
 
-class TalkDetailModal extends React.Component {
+class TalkDetail extends React.Component {
     constructor(props) {
         super(props);
 
@@ -77,17 +77,17 @@ class TalkDetailModal extends React.Component {
         let feedbackButton;
         if (isFeedbackUrlFilled) {
             if (this.state.showFeedbackForm) {
-                feedbackButton = <button type="button" onClick={() => this.closeFeedbackForm() } className="btn btn-primary">Retour</button>
+                feedbackButton = <button type="button" onClick={() => this.closeFeedbackForm() } className="btn background-outline-blue">Retour</button>
             } else {
-                feedbackButton = <button type="button" onClick={() => this.openFeedbackForm() } className="btn btn-primary">Laisser un avis</button>
+                feedbackButton = <button type="button" onClick={() => this.openFeedbackForm() } className="btn background-blue">Laisser un avis</button>
             }
         }
     
         let bookmarkButton;
         if (this.state.isBookmarked) {
-            bookmarkButton = <button type="button" onClick={ () => this.addToBookmark() } className="btn btn-outline-danger float-right" data-dismiss="modal">Supprimer des favoris</button>;
+            bookmarkButton = <button type="button" onClick={ () => this.addToBookmark() } className="btn background-outline-red float-right" data-dismiss="modal">Supprimer des favoris</button>;
         } else {
-            bookmarkButton = <button type="button" onClick={ () => this.addToBookmark() } className="btn btn-danger float-right" data-dismiss="modal">Ajouter aux favoris</button>;
+            bookmarkButton = <button type="button" onClick={ () => this.addToBookmark() } className="btn background-red float-right" data-dismiss="modal">Ajouter aux favoris</button>;
         }
     
         let talkLevel;
@@ -98,7 +98,7 @@ class TalkDetailModal extends React.Component {
         }
     
         return (
-            <div className="modal" id="talkDetailModal" tabIndex="-1" role="dialog" aria-hidden="true">
+            <div className="modal" id="talkDetail" data-keyboard="false" tabIndex="-1" role="dialog" aria-hidden="true">
                 <div className="modal-dialog modal-lg" role="document">
                     <div className="modal-content">
                         <div className="modal-header">
@@ -113,9 +113,14 @@ class TalkDetailModal extends React.Component {
                                 <span className="badge badge-pill badge-light" key={index}>{speakerName}</span>
                             )}
                         </div>
-
+ 
                         { this.state.showFeedbackForm ?
-                            <div className="modal-body">
+                            <div className="modal-body holds-the-iframe">
+                                <div class="loader">
+                                    <div class="dots"></div>
+                                    <div class="dots"></div>
+                                    <div class="dots"></div>
+                                </div>
                                 <iframe title="Roti" src={ this.state.talk.feedbackUrl } frameBorder="0" style={{ border: "none", width: "100%", height: "500px" }}></iframe>
                             </div>
                             :
@@ -140,7 +145,7 @@ class TalkDetailModal extends React.Component {
     }
     
     return (
-        <div className="modal" id="talkDetailModal" tabIndex="-1" role="dialog" aria-hidden="true">
+        <div className="modal" id="talkDetail" tabIndex="-1" role="dialog" aria-hidden="true">
             <div className="modal-dialog modal-lg" role="document">
             </div>
         </div>
@@ -148,4 +153,4 @@ class TalkDetailModal extends React.Component {
   }
 }
 
-export default TalkDetailModal;
+export default TalkDetail;

@@ -27,7 +27,7 @@ class Talk extends React.Component {
                     <div 
                         className={ "card talk-item" + (this.isBookmarked() ? ' red-border' : '') } 
                         data-toggle="modal" 
-                        data-target="#talkDetailModal" 
+                        data-target="#talkDetail" 
                         onClick={ () => this.onClicked() }
                         data-id={this.props.data.id} 
                         data-title={this.props.data.title} 
@@ -48,8 +48,15 @@ class Talk extends React.Component {
                             </p>
                             
                         </div>
-                        <div className="card-footer text-muted">
-                            { this.props.data.room }
+                        <div className="card-footer">
+                            <span className="text-muted">
+                                { this.props.data.room }
+                            </span>
+
+                            <div className="arrow right-arrow">
+                                <div className="arrow-bar arrow-bar-1"></div>
+                                <div className="arrow-bar arrow-bar-2"></div>
+                            </div>
                         </div>
                     </div>  
 

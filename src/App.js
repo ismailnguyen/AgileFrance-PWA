@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 
 import Talk from './Talk/Talk';
-import TalkDetailModal from './Talk/TalkDetailModal';
+import TalkDetail from './Talk/TalkDetail';
 import DayScheduleNavigation from './DayScheduleNavigation/DayScheduleNavigation'
 import scheduleDatas from './datas/schedule.json';
 
@@ -78,7 +78,7 @@ class App extends React.Component {
           
         </div>
 
-        <TalkDetailModal talkData={ this.state.lastClickedTalkData } bookmarks={ this.state.bookmarks } bookmarkUpdated={ status => this.onBookmarkUpdated() } />
+        <TalkDetail talkData={ this.state.lastClickedTalkData } bookmarks={ this.state.bookmarks } bookmarkUpdated={ status => this.onBookmarkUpdated() } />
 
         <footer className="lazyload" data-bg="/assets/img/audience.png"></footer>
       </div>
