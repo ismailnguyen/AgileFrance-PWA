@@ -96,15 +96,18 @@
             }
         });
 
-        $('.title-row').click(function () {
+        $('header small').click(function () {
           if ($(this).hasClass('dark-theme')) {
               $('.App').css('background-color', '#efedf8');
               $('.App').css('background', 'url(/assets/img/full-background.png)');
-            
+              $('header').show();
+              $('.main-container').css('margin-top', '210px');
+              
             $(this).removeClass('dark-theme');
           } else {
               $('.App').css('background', 'black');
-            
+              $('header').hide();
+              $('.main-container').css('margin-top', '0');
               $(this).addClass('dark-theme');
           }
         })

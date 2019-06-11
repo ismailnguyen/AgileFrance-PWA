@@ -56,7 +56,8 @@
 				speakers: [
 					`${rawDatas[i].Prénom1} ${rawDatas[i].Nom1}`,
 				],
-				feedbackUrl: `https://roti.express/r/AF2019-${ rawDatas[i].ID }`
+				feedbackUrl: `https://roti.express/r/AF2019-${ rawDatas[i].ID }`,
+				type: 'talk'
 			};
 
 			if (rawDatas[i].Prénom2 !== '' && rawDatas[i].Nom2 !== '') {
@@ -73,7 +74,7 @@
 		return resultDatas;
 	}
 
-	function groupByDay(talks) {
+	function groupByDayAndSortByTime(talks) {
 		let days = [];
 
 		for (var i=0; i<talks.length; i++) {
@@ -97,6 +98,19 @@
 		return days;
 	}
 
+	function loadJSON(fileName, callback) {   
+		var xobj = new XMLHttpRequest();
+			xobj.overrideMimeType("application/json");
+		xobj.open('GET', fileName, true);
+		xobj.onreadystatechange = function () {
+			if (xobj.readyState == 4 && xobj.status == "200") {
+				// Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
+				callback(xobj.responseText);
+			}
+		};
+		xobj.send(null);  
+	}
+
 	function readSingleFile(e) {
 	  var file = e.target.files[0];
 	  if (!file)
@@ -106,17 +120,21 @@
 				header: true,
 				delimiter: ',',
 				complete: function(results) {
-					var parsedDatas = convertDatas(results.data);
-
-					parsedDatas = {
-						days: parsedDatas
+					var parsedDatas = {
+						days: convertDatas(results.data)
 					};
 
-					parsedDatas.days = groupByDay(parsedDatas.days);
+					loadJSON('src/datas/special_events.json', function (response) {
+						var specialEvents =  JSON.parse(response);
 
-					console.log(JSON.stringify(parsedDatas, null, 4));
-					
-					displayContents(JSON.stringify(parsedDatas, null, 4));
+						parsedDatas.days = parsedDatas.days.concat(specialEvents);
+
+						parsedDatas.days = groupByDayAndSortByTime(parsedDatas.days);
+
+						console.log(JSON.stringify(parsedDatas, null, 4));
+						
+						displayContents(JSON.stringify(parsedDatas, null, 4));
+					})
 				}
 			});
 	}

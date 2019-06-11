@@ -5,6 +5,54 @@
             "dayName": "Jeudi",
             "events": [
                 {
+                    "id": 8881,
+                    "day": "13/06/2019",
+                    "dayName": "Jeudi",
+                    "halfdayName": "Matin",
+                    "startTime": "08:00",
+                    "endTime": "09:00",
+                    "title": "Accueil, remise des badges et petit-déjeuner",
+                    "description": "",
+                    "room": "",
+                    "level": "",
+                    "objectif": "",
+                    "speakers": [],
+                    "feedbackUrl": "",
+                    "type": "special_event"
+                },
+                {
+                    "id": 8882,
+                    "day": "13/06/2019",
+                    "dayName": "Jeudi",
+                    "halfdayName": "Matin",
+                    "startTime": "09:00",
+                    "endTime": "09:40",
+                    "title": "Cérémonie d'ouverture / présentation éducathon",
+                    "description": "",
+                    "room": "",
+                    "level": "",
+                    "objectif": "",
+                    "speakers": [],
+                    "feedbackUrl": "",
+                    "type": "special_event"
+                },
+                {
+                    "id": 8883,
+                    "day": "13/06/2019",
+                    "dayName": "Jeudi",
+                    "halfdayName": "Matin",
+                    "startTime": "09:40",
+                    "endTime": "09:50",
+                    "title": "Pitch des sessions du matin",
+                    "description": "",
+                    "room": "",
+                    "level": "",
+                    "objectif": "",
+                    "speakers": [],
+                    "feedbackUrl": "",
+                    "type": "special_event"
+                },
+                {
                     "id": 1,
                     "day": "13/06/2019",
                     "dayName": "Jeudi",
@@ -19,7 +67,8 @@
                     "speakers": [
                         "Grégory ALEXANDRE"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-1"
+                    "feedbackUrl": "https://roti.express/r/AF2019-1",
+                    "type": "talk"
                 },
                 {
                     "id": 14,
@@ -37,7 +86,8 @@
                         "Frantz DEGRIGNY",
                         "Gaelle ABAUTRET"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-41"
+                    "feedbackUrl": "https://roti.express/r/AF2019-41",
+                    "type": "talk"
                 },
                 {
                     "id": 31,
@@ -55,7 +105,8 @@
                         "Nicolas KALMANOVITZ",
                         "Alban DALLE"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-93"
+                    "feedbackUrl": "https://roti.express/r/AF2019-93",
+                    "type": "talk"
                 },
                 {
                     "id": 35,
@@ -72,7 +123,8 @@
                     "speakers": [
                         "Julien JAKUBOWSKI"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-105"
+                    "feedbackUrl": "https://roti.express/r/AF2019-105",
+                    "type": "talk"
                 },
                 {
                     "id": 44,
@@ -90,7 +142,8 @@
                         "Emmanuel GUE",
                         "Alexandre HUETE"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-131"
+                    "feedbackUrl": "https://roti.express/r/AF2019-131",
+                    "type": "talk"
                 },
                 {
                     "id": 46,
@@ -109,7 +162,24 @@
                         "Nicolas CHAIGNEAU",
                         "Xavier FENOUIL"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-144"
+                    "feedbackUrl": "https://roti.express/r/AF2019-144",
+                    "type": "talk"
+                },
+                {
+                    "id": 8884,
+                    "day": "13/06/2019",
+                    "dayName": "Jeudi",
+                    "halfdayName": "Matin",
+                    "startTime": "10:50",
+                    "endTime": "11:20",
+                    "title": "Pause, networking",
+                    "description": "",
+                    "room": "",
+                    "level": "",
+                    "objectif": "",
+                    "speakers": [],
+                    "feedbackUrl": "",
+                    "type": "special_event"
                 },
                 {
                     "id": 9,
@@ -126,7 +196,8 @@
                     "speakers": [
                         "Aurélien WILLE"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-18"
+                    "feedbackUrl": "https://roti.express/r/AF2019-18",
+                    "type": "talk"
                 },
                 {
                     "id": 13,
@@ -143,7 +214,8 @@
                     "speakers": [
                         "Vincent JOBARD"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-33"
+                    "feedbackUrl": "https://roti.express/r/AF2019-33",
+                    "type": "talk"
                 },
                 {
                     "id": 18,
@@ -161,7 +233,8 @@
                         "Moïra DEGROOTE",
                         "Laurent LAME"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-53"
+                    "feedbackUrl": "https://roti.express/r/AF2019-53",
+                    "type": "talk"
                 },
                 {
                     "id": 25,
@@ -179,7 +252,8 @@
                         "Nils LESIEUR",
                         "Stéphane BACHELET"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-72"
+                    "feedbackUrl": "https://roti.express/r/AF2019-72",
+                    "type": "talk"
                 },
                 {
                     "id": 27,
@@ -196,7 +270,8 @@
                     "speakers": [
                         "Manuella CHAINOT-BATAILLE"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-76"
+                    "feedbackUrl": "https://roti.express/r/AF2019-76",
+                    "type": "talk"
                 },
                 {
                     "id": 33,
@@ -214,7 +289,8 @@
                         "Ismail HAMMOUNOU",
                         "Philippe BOURGAU"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-97"
+                    "feedbackUrl": "https://roti.express/r/AF2019-97",
+                    "type": "talk"
                 },
                 {
                     "id": 16,
@@ -232,7 +308,120 @@
                         "Charline RENART",
                         "Coline GUICHARD"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-43"
+                    "feedbackUrl": "https://roti.express/r/AF2019-43",
+                    "type": "talk"
+                },
+                {
+                    "id": 8885,
+                    "day": "13/06/2019",
+                    "dayName": "Jeudi",
+                    "halfdayName": "Après-midi",
+                    "startTime": "12:20",
+                    "endTime": "14:00",
+                    "title": "Déjeuner",
+                    "description": "",
+                    "room": "",
+                    "level": "",
+                    "objectif": "",
+                    "speakers": [],
+                    "feedbackUrl": "",
+                    "type": "special_event"
+                },
+                {
+                    "id": 8886,
+                    "day": "13/06/2019",
+                    "dayName": "Jeudi",
+                    "halfdayName": "Après-midi",
+                    "startTime": "14:00",
+                    "endTime": "14:20",
+                    "title": "Présentation éducathon + pitchs des sujets Educ",
+                    "description": "",
+                    "room": "",
+                    "level": "",
+                    "objectif": "",
+                    "speakers": [],
+                    "feedbackUrl": "",
+                    "type": "special_event"
+                },
+                {
+                    "id": 8887,
+                    "day": "13/06/2019",
+                    "dayName": "Jeudi",
+                    "halfdayName": "Après-midi",
+                    "startTime": "14:20",
+                    "endTime": "14:30",
+                    "title": "Pitch sessions de l'après-midi",
+                    "description": "",
+                    "room": "",
+                    "level": "",
+                    "objectif": "",
+                    "speakers": [],
+                    "feedbackUrl": "",
+                    "type": "special_event"
+                },
+                {
+                    "id": 8888,
+                    "day": "13/06/2019",
+                    "dayName": "Jeudi",
+                    "halfdayName": "Après-midi",
+                    "startTime": "14:30",
+                    "endTime": "14:50",
+                    "title": "Forum ouvert : place du marché",
+                    "description": "",
+                    "room": "",
+                    "level": "",
+                    "objectif": "",
+                    "speakers": [],
+                    "feedbackUrl": "",
+                    "type": "special_event"
+                },
+                {
+                    "id": 8889,
+                    "day": "13/06/2019",
+                    "dayName": "Jeudi",
+                    "halfdayName": "Après-midi",
+                    "startTime": "14:50",
+                    "endTime": "15:40",
+                    "title": "Forum ouvert : créneau 1",
+                    "description": "",
+                    "room": "",
+                    "level": "",
+                    "objectif": "",
+                    "speakers": [],
+                    "feedbackUrl": "",
+                    "type": "special_event"
+                },
+                {
+                    "id": 8890,
+                    "day": "13/06/2019",
+                    "dayName": "Jeudi",
+                    "halfdayName": "Après-midi",
+                    "startTime": "15:40",
+                    "endTime": "16:30",
+                    "title": "Forum ouvert : créneau 2",
+                    "description": "",
+                    "room": "",
+                    "level": "",
+                    "objectif": "",
+                    "speakers": [],
+                    "feedbackUrl": "",
+                    "type": "special_event"
+                },
+                {
+                    "id": 8891,
+                    "day": "13/06/2019",
+                    "dayName": "Jeudi",
+                    "halfdayName": "Après-midi",
+                    "startTime": "16:30",
+                    "endTime": "17:20",
+                    "title": "Forum ouvert : créneau 3",
+                    "description": "",
+                    "room": "",
+                    "level": "",
+                    "objectif": "",
+                    "speakers": [],
+                    "feedbackUrl": "",
+                    "type": "special_event"
                 },
                 {
                     "id": 11,
@@ -241,7 +430,7 @@
                     "halfdayName": "Après-midi",
                     "startTime": "17:20",
                     "endTime": "17:50",
-                    "title": "Sketchnotez c’est gagné",
+                    "title": "Sketchnotez c’est gagné !",
                     "description": "Nous utilisons tous le dessin occasionnellement ou régulièrement pour être plus efficaces dans la modélisation de nos idées ou dans le travail en groupe. Les neurosciences nous donnent raison puisque l’usage des images nous aide entre autre la dans mémorisation et dans la vitesse d’assimilation. Finalement, les dessins que nous produisons sont-ils réellement efficaces ? Avec vous, Je souhaite revenir sur une année de pratique du dessin dans mon quotidien professionnel et personnel en répondant à deux questions: comment produire des dessins impactant et comment gagner en confiance ?",
                     "room": "Belvédère",
                     "level": "Shu (apprendre les fondamentaux)",
@@ -249,7 +438,8 @@
                     "speakers": [
                         "Gautier LESIEUR"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-25"
+                    "feedbackUrl": "https://roti.express/r/AF2019-25",
+                    "type": "talk"
                 },
                 {
                     "id": 20,
@@ -266,7 +456,8 @@
                     "speakers": [
                         "Bertrand MINARY"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-57"
+                    "feedbackUrl": "https://roti.express/r/AF2019-57",
+                    "type": "talk"
                 },
                 {
                     "id": 36,
@@ -284,7 +475,8 @@
                         "Philippe SOURGET",
                         "Victor PICHON"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-106"
+                    "feedbackUrl": "https://roti.express/r/AF2019-106",
+                    "type": "talk"
                 },
                 {
                     "id": 39,
@@ -301,7 +493,8 @@
                     "speakers": [
                         "Elodie DESCHARMES"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-112"
+                    "feedbackUrl": "https://roti.express/r/AF2019-112",
+                    "type": "talk"
                 },
                 {
                     "id": 45,
@@ -316,10 +509,26 @@
                     "level": "Shu (apprendre les fondamentaux)",
                     "objectif": "Tenter un truc",
                     "speakers": [
-                        "Davy AZAM",
                         "Didier ORTEGA"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-141"
+                    "feedbackUrl": "https://roti.express/r/AF2019-141",
+                    "type": "talk"
+                },
+                {
+                    "id": 8892,
+                    "day": "13/06/2019",
+                    "dayName": "Jeudi",
+                    "halfdayName": "Après-midi",
+                    "startTime": "18:00",
+                    "endTime": "18:30",
+                    "title": "Clôture - réstitution Educathon",
+                    "description": "",
+                    "room": "",
+                    "level": "",
+                    "objectif": "",
+                    "speakers": [],
+                    "feedbackUrl": "",
+                    "type": "special_event"
                 }
             ]
         },
@@ -327,6 +536,54 @@
             "day": "14/06/2019",
             "dayName": "Vendredi",
             "events": [
+                {
+                    "id": 9991,
+                    "day": "14/06/2019",
+                    "dayName": "Vendredi",
+                    "halfdayName": "Matin",
+                    "startTime": "08:00",
+                    "endTime": "09:00",
+                    "title": "Accueil autour du petit-déjeuner",
+                    "description": "",
+                    "room": "",
+                    "level": "",
+                    "objectif": "",
+                    "speakers": [],
+                    "feedbackUrl": "",
+                    "type": "special_event"
+                },
+                {
+                    "id": 9992,
+                    "day": "14/06/2019",
+                    "dayName": "Vendredi",
+                    "halfdayName": "Matin",
+                    "startTime": "09:00",
+                    "endTime": "09:20",
+                    "title": "Ouverture, ice breaker",
+                    "description": "",
+                    "room": "",
+                    "level": "",
+                    "objectif": "",
+                    "speakers": [],
+                    "feedbackUrl": "",
+                    "type": "special_event"
+                },
+                {
+                    "id": 9993,
+                    "day": "14/06/2019",
+                    "dayName": "Vendredi",
+                    "halfdayName": "Matin",
+                    "startTime": "09:20",
+                    "endTime": "09:30",
+                    "title": "Pitch des sessions du matin",
+                    "description": "",
+                    "room": "",
+                    "level": "",
+                    "objectif": "",
+                    "speakers": [],
+                    "feedbackUrl": "",
+                    "type": "special_event"
+                },
                 {
                     "id": 5,
                     "day": "14/06/2019",
@@ -343,7 +600,8 @@
                         "François-Xavier LEONETTI",
                         "Amélie PLEAU"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-11"
+                    "feedbackUrl": "https://roti.express/r/AF2019-11",
+                    "type": "talk"
                 },
                 {
                     "id": 7,
@@ -361,7 +619,8 @@
                         "Yann GOWSY",
                         "Alexandre QUACH"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-15"
+                    "feedbackUrl": "https://roti.express/r/AF2019-15",
+                    "type": "talk"
                 },
                 {
                     "id": 10,
@@ -378,7 +637,8 @@
                     "speakers": [
                         "Mickaël ANDRE"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-22"
+                    "feedbackUrl": "https://roti.express/r/AF2019-22",
+                    "type": "talk"
                 },
                 {
                     "id": 26,
@@ -395,7 +655,8 @@
                     "speakers": [
                         "Frédéric FAURE"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-74"
+                    "feedbackUrl": "https://roti.express/r/AF2019-74",
+                    "type": "talk"
                 },
                 {
                     "id": 32,
@@ -413,7 +674,8 @@
                         "Sarah COLMON",
                         "Alexandra NEMERY"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-95"
+                    "feedbackUrl": "https://roti.express/r/AF2019-95",
+                    "type": "talk"
                 },
                 {
                     "id": 40,
@@ -432,7 +694,8 @@
                         "Marco MARCAL",
                         "Catherine BOUDLAL"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-117"
+                    "feedbackUrl": "https://roti.express/r/AF2019-117",
+                    "type": "talk"
                 },
                 {
                     "id": 43,
@@ -450,7 +713,24 @@
                         "Bastien JACOUD",
                         "Edouard PRIMAULT"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-130"
+                    "feedbackUrl": "https://roti.express/r/AF2019-130",
+                    "type": "talk"
+                },
+                {
+                    "id": 9994,
+                    "day": "14/06/2019",
+                    "dayName": "Vendredi",
+                    "halfdayName": "Matin",
+                    "startTime": "10:30",
+                    "endTime": "10:50",
+                    "title": "Pause, networking",
+                    "description": "",
+                    "room": "",
+                    "level": "",
+                    "objectif": "",
+                    "speakers": [],
+                    "feedbackUrl": "",
+                    "type": "special_event"
                 },
                 {
                     "id": 21,
@@ -465,10 +745,12 @@
                     "level": "Ha (casser avec la tradition)",
                     "objectif": "Tenter un truc",
                     "speakers": [
-                        "Emmanuelle LEFORT",
-                        "Marina SOSNIAK"
+                        "Emmanuelle LEFORT Marina SOSNIAK",
+                        "Delphine LEGAL Pascal POUSSARD",
+                        "et Laurent DASSAULT"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-58"
+                    "feedbackUrl": "https://roti.express/r/AF2019-58",
+                    "type": "talk"
                 },
                 {
                     "id": 22,
@@ -481,11 +763,12 @@
                     "description": "La présentation s’adresse à deux publics différents et complémentaires. Il s’agit des prestataires Agilistes (SSII), débutants ou non et des acteurs, souvent moins expérimentés que les premiers, des grosses structures (entreprises ou administrations) qui mettent en œuvre ou souhaitent le faire, de l’Agilité.<br>L’objectif est de présenter à chacun, les clés, bonnes pratiques et pièges à éviter pour pratiquer avec succès, l’agilité. Il ne s’agit pas d’un retour d’expérience mais d’un exposé sur les facteurs clés, vus, et c’est l’originalité de la présentation, par un acteur d’une grosse structure, l’Insee. Le client parle aux prestas en expliquant quelques clés pour faire du gagnant-gagnant.<br>L’exposé est jalonné d’illustrations et d’anecdotes. Des éléments de base de l’agilité et de sociologie (le chemin vers l’interdépendance, la socio-dynamique des acteurs, le cargo cult agile, etc.) y sont aussi rappelés de manière ludique. L’exposé est support à échanges avec et entre participants.",
                     "room": "Chalet 1",
                     "level": "Ha (casser avec la tradition)",
-                    "objectif": "C’est un mélange de bases, de rex et de changement du point de vue habituel",
+                    "objectif": "C’est un mélange de bases, de REX et de changement du point de vue habituel",
                     "speakers": [
                         "Jean-Michel ARNOUX"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-60"
+                    "feedbackUrl": "https://roti.express/r/AF2019-60",
+                    "type": "talk"
                 },
                 {
                     "id": 34,
@@ -502,7 +785,8 @@
                     "speakers": [
                         "Philippe BOURGAU"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-98"
+                    "feedbackUrl": "https://roti.express/r/AF2019-98",
+                    "type": "talk"
                 },
                 {
                     "id": 42,
@@ -519,7 +803,8 @@
                     "speakers": [
                         "Nathaniel RICHAND"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-129"
+                    "feedbackUrl": "https://roti.express/r/AF2019-129",
+                    "type": "talk"
                 },
                 {
                     "id": 47,
@@ -536,7 +821,40 @@
                     "speakers": [
                         "François ZANINOTTO"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-7"
+                    "feedbackUrl": "https://roti.express/r/AF2019-7",
+                    "type": "talk"
+                },
+                {
+                    "id": 9995,
+                    "day": "14/06/2019",
+                    "dayName": "Vendredi",
+                    "halfdayName": "Après-midi",
+                    "startTime": "12:40",
+                    "endTime": "14:00",
+                    "title": "Déjeuner / Café théatre",
+                    "description": "",
+                    "room": "",
+                    "level": "",
+                    "objectif": "",
+                    "speakers": [],
+                    "feedbackUrl": "",
+                    "type": "special_event"
+                },
+                {
+                    "id": 9996,
+                    "day": "14/06/2019",
+                    "dayName": "Vendredi",
+                    "halfdayName": "Après-midi",
+                    "startTime": "14:00",
+                    "endTime": "14:10",
+                    "title": "Pitch sessions de l'après-midi",
+                    "description": "",
+                    "room": "",
+                    "level": "",
+                    "objectif": "",
+                    "speakers": [],
+                    "feedbackUrl": "",
+                    "type": "special_event"
                 },
                 {
                     "id": 2,
@@ -554,7 +872,8 @@
                         "Laetitia THERNIER",
                         "Régis SCHNEIDER"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-4"
+                    "feedbackUrl": "https://roti.express/r/AF2019-4",
+                    "type": "talk"
                 },
                 {
                     "id": 8,
@@ -571,7 +890,8 @@
                     "speakers": [
                         "Anne GABRILLAGUES"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-17"
+                    "feedbackUrl": "https://roti.express/r/AF2019-17",
+                    "type": "talk"
                 },
                 {
                     "id": 12,
@@ -589,7 +909,8 @@
                         "Fabrice BLOCH",
                         "Armelle KOEHL"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-29"
+                    "feedbackUrl": "https://roti.express/r/AF2019-29",
+                    "type": "talk"
                 },
                 {
                     "id": 15,
@@ -607,7 +928,8 @@
                         "Arnaud GERVAIS",
                         "Grégory ALEXANDRE"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-42"
+                    "feedbackUrl": "https://roti.express/r/AF2019-42",
+                    "type": "talk"
                 },
                 {
                     "id": 17,
@@ -625,7 +947,8 @@
                         "Dominique LEQUEPEYS",
                         "Philippe BRON"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-45"
+                    "feedbackUrl": "https://roti.express/r/AF2019-45",
+                    "type": "talk"
                 },
                 {
                     "id": 23,
@@ -642,7 +965,8 @@
                     "speakers": [
                         "Yoan THIRION"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-63"
+                    "feedbackUrl": "https://roti.express/r/AF2019-63",
+                    "type": "talk"
                 },
                 {
                     "id": 30,
@@ -659,7 +983,8 @@
                     "speakers": [
                         "Dov TSAL"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-83"
+                    "feedbackUrl": "https://roti.express/r/AF2019-83",
+                    "type": "talk"
                 },
                 {
                     "id": 19,
@@ -676,7 +1001,8 @@
                     "speakers": [
                         "Tiphanie VINET"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-55"
+                    "feedbackUrl": "https://roti.express/r/AF2019-55",
+                    "type": "talk"
                 },
                 {
                     "id": 24,
@@ -693,7 +1019,24 @@
                     "speakers": [
                         "Eric PATRIZIO"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-67"
+                    "feedbackUrl": "https://roti.express/r/AF2019-67",
+                    "type": "talk"
+                },
+                {
+                    "id": 9997,
+                    "day": "14/06/2019",
+                    "dayName": "Vendredi",
+                    "halfdayName": "Après-midi",
+                    "startTime": "16:10",
+                    "endTime": "16:40",
+                    "title": "Pause, networking",
+                    "description": "",
+                    "room": "",
+                    "level": "",
+                    "objectif": "",
+                    "speakers": [],
+                    "feedbackUrl": "",
+                    "type": "special_event"
                 },
                 {
                     "id": 28,
@@ -703,7 +1046,7 @@
                     "startTime": "16:25",
                     "endTime": "17:10",
                     "title": "L’agilité ça ne marche pas ! Ok, mais pourquoi ?",
-                    "description": "Cet atelier est un forum théâtre. Une scénette de 5 min retrace un atelier de rétrospective qui se passe plus ou moins bien, mettant en jeu des  participants et un facilitateur agile.<br>Cet atelier fait intervenir :<br>-un animateur en charge d'inviter les participants à réagir et intervenir sur scène pour tenter de faire changer les choses<br>-3 acteurs faisant vivre la scène et prêt à interpréter les nouvelles situations rencontrées aux vues des remarques des participants<br>-Un facilitateur graphique en charge de collecter graphiquement les échanges.<br>Cette session intéresse tous les coach agiles, novices ou experts ayant une connaissance de la posture agile et des ateliers de rétrospective et qui souhaitent s'améliorer ou partager leurs pratiques. Ils seront à la fois intéressés par l'apport des échanges issues de l'atelier et à la fois intéressés par le format suscitant interactions dynamiques et impliquantes, dont ils pourront s'inspirer.",
+                    "description": "“L’agilité en 2 actes” : Acte 1<br><br>Acte 1 : Dominique, fraîchement formé à l’agilité, est plein de bonne volonté et pourtant ça ne marche pas ! Ok, mais pourquoi ?. Cette saynète de type théâtre forum vous emmènera en exploration de situations difficiles que l’on peut rencontrer lorsque l’on cherche à travailler en agilité, lorsque l’on débute. A noter qu’il n’est pas impossible que votre votre présence ne joue un rôle, ici…<br><br>Cette session intéresse tous les coach agiles, novices ou experts ayant une connaissance de la posture agile et des ateliers agiles et qui souhaitent s'améliorer ou partager leurs pratiques. Ils seront à la fois intéressés par l'apport des échanges issues de l'atelier et à la fois intéressés par le format suscitant interactions dynamiques et impliquantes, dont ils pourront s'inspirer.<br><br>Toute ressemblance avec des situations  existantes ou ayant existé serait volontaire.",
                     "room": "Fermette",
                     "level": "Ha (casser avec la tradition)",
                     "objectif": "Rechercher ensemble des solutions autour de problématiques agiles que l'on peut rencontrer lorsque l'on anime des ateliers agiles.",
@@ -712,7 +1055,8 @@
                         "Vincent FASSEU François BOISSEL",
                         "et Mickaël SEVERE"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-82"
+                    "feedbackUrl": "https://roti.express/r/AF2019-82",
+                    "type": "talk"
                 },
                 {
                     "id": 3,
@@ -729,7 +1073,8 @@
                     "speakers": [
                         "Anne-Sophie GIRAULT LE MAULT"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-5"
+                    "feedbackUrl": "https://roti.express/r/AF2019-5",
+                    "type": "talk"
                 },
                 {
                     "id": 4,
@@ -746,7 +1091,8 @@
                     "speakers": [
                         "Aurelie AMBAL"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-6"
+                    "feedbackUrl": "https://roti.express/r/AF2019-6",
+                    "type": "talk"
                 },
                 {
                     "id": 6,
@@ -763,7 +1109,8 @@
                     "speakers": [
                         "Arnaud PICHERY"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-14"
+                    "feedbackUrl": "https://roti.express/r/AF2019-14",
+                    "type": "talk"
                 },
                 {
                     "id": 37,
@@ -780,7 +1127,8 @@
                     "speakers": [
                         "Olivier LE LAN"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-107"
+                    "feedbackUrl": "https://roti.express/r/AF2019-107",
+                    "type": "talk"
                 },
                 {
                     "id": 38,
@@ -798,7 +1146,24 @@
                         "Thomas BONSET",
                         "Émilien BOULBEN"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-108"
+                    "feedbackUrl": "https://roti.express/r/AF2019-108",
+                    "type": "talk"
+                },
+                {
+                    "id": 9998,
+                    "day": "14/06/2019",
+                    "dayName": "Vendredi",
+                    "halfdayName": "Après-midi",
+                    "startTime": "17:10",
+                    "endTime": "17:20",
+                    "title": "Rassemblement pour la clôture",
+                    "description": "",
+                    "room": "",
+                    "level": "",
+                    "objectif": "",
+                    "speakers": [],
+                    "feedbackUrl": "",
+                    "type": "special_event"
                 },
                 {
                     "id": 29,
@@ -808,7 +1173,7 @@
                     "startTime": "17:20",
                     "endTime": "18:00",
                     "title": "L’agilité ça ne marche pas ! Ok, mais pourquoi ? (suite)",
-                    "description": "Cet atelier est un forum théâtre. Une scénette de 5 min retrace un atelier de rétrospective qui se passe plus ou moins bien, mettant en jeu des  participants et un facilitateur agile.<br>Cet atelier fait intervenir :<br>-un animateur en charge d'inviter les participants à réagir et intervenir sur scène pour tenter de faire changer les choses<br>-3 acteurs faisant vivre la scène et prêt à interpréter les nouvelles situations rencontrées aux vues des remarques des participants<br>-Un facilitateur graphique en charge de collecter graphiquement les échanges.<br>Cette session intéresse tous les coach agiles, novices ou experts ayant une connaissance de la posture agile et des ateliers de rétrospective et qui souhaitent s'améliorer ou partager leurs pratiques. Ils seront à la fois intéressés par l'apport des échanges issues de l'atelier et à la fois intéressés par le format suscitant interactions dynamiques et impliquantes, dont ils pourront s'inspirer.",
+                    "description": "“L’agilité en 2 actes”  : Acte 2<br><br>Acte 2 : Depuis l’acte 1, Dominique et ses collègues ont maintenant bien ancrés leurs rituels agiles dans leurs habitudes et pourtant ça ne marche pas ! Ok, mais pourquoi ?  Cette saynète de type théâtre forum vous emmènera en exploration de situations difficiles que l’on peut rencontrer lorsque l’on cherche à travailler en agilité, lorsque les habitudes se mettent en place. Il n’est pas impossible que votre votre présence ne joue un rôle, ici aussi…<br><br>Cette session intéresse tous les coach agiles, novices ou experts ayant une connaissance de la posture agile et des ateliers agiles et qui souhaitent s'améliorer ou partager leurs pratiques Ils seront à la fois intéressés par l'apport des échanges issues de l'atelier et à la fois intéressés par le format suscitant interactions dynamiques et impliquantes, dont ils pourront s'inspirer<br><br>Toute ressemblance avec des situations  existantes ou ayant existé serait volontaire.",
                     "room": "Belvédère",
                     "level": "",
                     "objectif": "Rechercher ensemble des solutions autour de problématiques agiles que l'on peut rencontrer lorsque l'on anime des ateliers agiles.",
@@ -817,7 +1182,24 @@
                         "Vincent FASSEU François BOISSEL",
                         "et Mickaël SEVERE"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-84"
+                    "feedbackUrl": "https://roti.express/r/AF2019-84",
+                    "type": "talk"
+                },
+                {
+                    "id": 9999,
+                    "day": "14/06/2019",
+                    "dayName": "Vendredi",
+                    "halfdayName": "Après-midi",
+                    "startTime": "18:00",
+                    "endTime": "19:00",
+                    "title": "Pot de clôture",
+                    "description": "",
+                    "room": "",
+                    "level": "",
+                    "objectif": "",
+                    "speakers": [],
+                    "feedbackUrl": "",
+                    "type": "special_event"
                 },
                 {
                     "id": 41,
@@ -834,7 +1216,8 @@
                         "Grégoire QUENTIN",
                         "Dan MAGIER"
                     ],
-                    "feedbackUrl": "https://roti.express/r/AF2019-128"
+                    "feedbackUrl": "https://roti.express/r/AF2019-128",
+                    "type": "talk"
                 }
             ]
         }
