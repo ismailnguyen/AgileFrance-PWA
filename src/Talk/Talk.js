@@ -16,7 +16,8 @@ class Talk extends React.Component {
     }
 
     render() {
-        return (
+        if (this.props.data.type === 'talk') {
+            return (
                 <div className="col-sm-4">
                     
                     <span className="badge badge-primary">
@@ -60,7 +61,25 @@ class Talk extends React.Component {
                     </div>  
 
                 </div>
-        )
+            )
+        }
+        else {
+            return (
+                <div className="col-sm-4">
+                    <span className="badge badge-secondary">
+                    { this.props.data.startTime } - { this.props.data.endTime }
+                    </span>
+
+                    <div className="card special-event">
+                        <div className="card-body">
+                            <h5 className="card-title">
+                                { this.props.data.title }
+                            </h5>
+                        </div>
+                    </div>  
+                </div>
+            )
+        }
     }
 }
 
