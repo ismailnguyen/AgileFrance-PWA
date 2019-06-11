@@ -95,6 +95,19 @@
                 window.history.back();          
             }
         });
+
+        $('.title-row').click(function () {
+          if ($(this).hasClass('dark-theme')) {
+              $('.App').css('background-color', '#efedf8');
+              $('.App').css('background', 'url(/assets/img/full-background.png)');
+            
+            $(this).removeClass('dark-theme');
+          } else {
+              $('.App').css('background', 'black');
+            
+              $(this).addClass('dark-theme');
+          }
+        })
       })
     </script>
   </body>

@@ -4,8 +4,7 @@ body {
 
 .App {
   z-index: 9;
-  background-color: #efedf8;
-	background: url('/assets/img/full-background.png') no-repeat fixed;
+	background: #efedf8 url('/assets/img/full-background.png') no-repeat fixed;
 	background-size: cover;
 }
 
@@ -61,9 +60,10 @@ h1 {
   text-align: center;
   background-color: #efedf8;
   color: #1d1d1d;
-  position: fixed;
+	position: fixed;
   top: 0;
-  right: 0;
+	right: 0;
+	font-family: 'Comic Book','Comic Sans MS',cursive;
   left: 0;
   margin: auto;
   display: flex;
@@ -74,21 +74,23 @@ h1 {
   padding-top: 1rem;
 }
 
-.title-row {
-  margin-top: 60px;
-  margin-bottom: -30px;
-  text-align: center;
-  flex-flow: column-reverse;
+.header h4 {
+  font-weight: 700;
 }
 
 .title-row {
-    color: #efedf8;
-    background-color: #e60304 !important;
-    display: inline-block;
-    border: 1px solid transparent;
-    margin-bottom: 0px;
-    padding: 0.175rem 0.75rem;
-    width: 100%;
+  margin-top: 60px;
+	margin-bottom: 0px;
+  text-align: center;
+  flex-flow: column-reverse;
+	color: #efedf8;
+	background-color: #e60304 !important;
+	display: inline-block;
+	border: 1px solid transparent;
+	border-radius: 8px;
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+	padding: 0.175rem 0.75rem;
+	width: 100%;
 }
 
 .container.main-container {
