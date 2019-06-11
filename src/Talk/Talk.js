@@ -46,9 +46,10 @@ class Talk extends React.Component {
                             <p className="card-text">
                                 { this.props.data.objectif }
                             </p>
-                            <span className="btn btn-outline-secondary">
-                                { this.props.data.room }
-                            </span>
+                            
+                        </div>
+                        <div className="card-footer text-muted">
+                            { this.props.data.room }
                         </div>
                     </div>  
 
