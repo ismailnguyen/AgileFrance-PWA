@@ -11,6 +11,39 @@ h1 {
   text-align: center;
 }
 
+.btn.background-blue {
+	color: #ffffff;
+  background-color: #326ab0;
+  border-color: #326ab0;
+}
+
+.btn.background-blue {
+	color: #ffffff;
+  background-color: #326ab0;
+  border-color: #326ab0;
+}
+
+.btn.background-red {
+  color: #ffffff;
+  background-color: #e60304;
+  border-color: #e60304;
+}
+
+.btn.background-outline-red {
+  color: #e60304;
+  border-color: #e60304;
+}
+
+.btn.background-outline-gray {
+  color: #000000;
+  border-color: #efedf8;
+}
+
+.btn.background-outline-blue {
+  color: #326ab0;
+  border-color: #326ab0;
+}
+
 .logo {
   height: 80px;
   pointer-events: none;
