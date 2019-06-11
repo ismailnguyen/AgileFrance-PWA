@@ -1,5 +1,12 @@
 body {
-  background-color: #efedf8 !important;
+	background-color: #efedf8 !important;
+}
+
+.App {
+  z-index: 9;
+  background-color: #efedf8;
+	background: url('/assets/img/full-background.png') no-repeat fixed;
+	background-size: cover;
 }
 
 .row {
@@ -65,12 +72,6 @@ h1 {
   justify-content: center;
   z-index: -4;
   padding-top: 1rem;
-}
-
-.App {
-  z-index: 9;
-  background-color: #efedf8;
-  padding-bottom: 60px;
 }
 
 .title-row {

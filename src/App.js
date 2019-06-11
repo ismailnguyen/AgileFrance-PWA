@@ -79,8 +79,6 @@ class App extends React.Component {
         </div>
 
         <TalkDetail talkData={ this.state.lastClickedTalkData } bookmarks={ this.state.bookmarks } bookmarkUpdated={ status => this.onBookmarkUpdated() } />
-
-        <footer className="lazyload" data-bg="/assets/img/audience.png"></footer>
       </div>
     )
   }
