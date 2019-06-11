@@ -20,7 +20,7 @@ class Talk extends React.Component {
             return (
                 <div className="col-sm-4">
                     
-                    <span className="badge badge-primary">
+                    <span className={ "badge " + (this.isBookmarked() ? 'badge-red' : 'badge-primary') } >
                     { this.props.data.startTime } - { this.props.data.endTime }
                     </span>
 

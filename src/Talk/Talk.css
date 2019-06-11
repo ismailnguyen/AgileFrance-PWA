@@ -26,7 +26,15 @@
 }
 
 .card.talk-item.red-border {
-    box-shadow: 4px 4px 20px #e60304;
+    box-shadow: 8px 8px 20px #e60304;
+}
+
+.badge.badge-red {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    padding: 5px;
+    color: white;
+    background: #e60304;
 }
 
 .card.talk-item .card-title {
