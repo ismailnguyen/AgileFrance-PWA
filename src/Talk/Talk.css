@@ -32,40 +32,47 @@
     background-color: #326ab0;
 }
 
-/* Heart icon */
+.card-footer span {
+    line-height: 2rem;
+}
 
-.heart.icon {
-    color: #e60304;
-    margin-top: 6px;
-    margin-left: 5px;
-    width: 9px;
-    height: 9px;
-    border-left: solid 1px currentColor;
-    border-bottom: solid 1px currentColor;
+/* Arrow icon */
+.arrow {
+    float: right;
+    height: 30px;
+    position: relative;
+    width: 30px;
+}
+
+.arrow.right-arrow {
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.arrow .arrow-bar {
+    border-radius: 9% / 3%;
+    background: #ddd;
+    height: 69%;
+    left: 35%;
+    position: absolute;
+    width: 18%;
+}
+
+.arrow .arrow-bar-1{
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: -2px;
+}
+
+.arrow .arrow-bar-2 {
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
-            transform: rotate(-45deg);
-  }
-  .heart.icon:before {
-    content: '';
-    position: absolute;
-    top: -5px;
-    left: -1px;
-    width: 8px;
-    height: 5px;
-    border-radius: 5px 5px 0 0;
-    border-top: solid 1px currentColor;
-    border-left: solid 1px currentColor;
-    border-right: solid 1px currentColor;
-  }
-  .heart.icon:after {
-    content: '';
-    position: absolute;
-    top: 0px;
-    left: 8px;
-    width: 5px;
-    height: 8px;
-    border-radius: 0 5px 5px 0;
-    border-top: solid 1px currentColor;
-    border-right: solid 1px currentColor;
-    border-bottom: solid 1px currentColor;
-  }
+    transform: rotate(-45deg);
+    top: 32%;
+}
+  
