@@ -124,7 +124,7 @@
 						days: convertDatas(results.data)
 					};
 
-					loadJSON('src/datas/special_events.json', function (response) {
+					loadJSON('./special_events.json', function (response) {
 						var specialEvents =  JSON.parse(response);
 
 						parsedDatas.days = parsedDatas.days.concat(specialEvents);
